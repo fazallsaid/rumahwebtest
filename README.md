@@ -1,4 +1,4 @@
-# fe-rumahweb
+# Rumah Web Coding Test
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -38,3 +38,7 @@ To lint the code with ESLint, use the following command:
 ```sh
 npm run lint
 ```
+
+## Deployed Application
+
+The application has been deployed and can be accessed at: [https://rumahweb-coding-test.netlify.app/](https://rumahweb-coding-test.netlify.app/)
