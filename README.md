@@ -2,33 +2,38 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Installation and Setup Guide
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. Clone the repository
+2. Navigate to the project directory
+3. Run `npm install` to install the dependencies
 
-## Customize configuration
+## Code Structure
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+The project is structured as follows:
+- `src/`: Contains the source code of the application
+  - `components/`: Contains the Vue components
+  - `views/`: Contains the Vue views
+  - `App.vue`: The main Vue application file
+  - `main.js`: The entry point of the application
+- `public/`: Contains the public assets of the application
+- `vite.config.js`: The Vite configuration file
 
-## Project Setup
+## Running the Application
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
+To run the application in development mode, use the following command:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+To build the application for production, use the following command:
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+To lint the code with ESLint, use the following command:
 
 ```sh
 npm run lint
